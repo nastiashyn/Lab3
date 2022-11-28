@@ -1,0 +1,27 @@
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: #000;
+
+  &__colors {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  &__colors-one {
+    height: 40px;
+  }
+
+  &__title {
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: auto 30px;
+    gap: 20px;
+    align-items: center;
+    line-height: 1;
+  }
+}

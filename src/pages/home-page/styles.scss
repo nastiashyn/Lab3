@@ -1,0 +1,8 @@
+.home {
+  margin-bottom: 20px !important;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+}
